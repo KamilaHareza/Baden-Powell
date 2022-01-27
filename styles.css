@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: "Mulish", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    background-color: #DADADA;
+    color:black;
+}
+
+
+#title{
+    display: block;
+    font-size: 2em;
+    font-weight: 700;
+    margin: 30px;
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+#img-div{
+    background-color:#B3B3B3;
+    margin: 0px 30px 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#image{
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-caption{
+    padding-top: 10px;
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+ul{
+    display: block;
+    max-width: 50%;
+    margin: 30px auto;
+    text-align: left;
+}
+
+li{
+    line-height: 2em;
+}
+
+#tribute-info p{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+h3{
+    margin: 30px;
+}
+
+blockquote{
+    font-style: italic;
+    font-weight: 200;
+    font-size: 0.8em;
+    background-color: #B3B3B3;
+    padding: 0.1em;
+    margin: 10px 30px ;
+    border-radius: 10px;
+}
+
+a{
+    color: #9e2222;
+}
+
+a:hover{
+    color: #B3B3B3;
+    text-decoration: none;
+}
